@@ -1,0 +1,12 @@
+
+- title: "STAT 101 Syllabus"
+  desc: "Course overview, policies, grading."
+  file: "/downloads/syllabus-stat101.pdf"
+
+- title: "Lab 01: Intro to R"
+  desc: "First lab handout with R setup."
+  file: "/downloads/lab-01-instructions.pdf"
+
+- title: "R Quick Reference"
+  desc: "Common functions and idioms."
+  file: "/downloads/r-quick-reference.pdf"

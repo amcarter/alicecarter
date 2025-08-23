@@ -1,0 +1,18 @@
+title: "Dr. Alice Carter, Utah State University"
+description: "USU statistical consulting and course materials."
+baseurl: "/alicecarter"
+url: "https://vlahm.github.io"
+
+# Simple site variables you can reuse in layouts
+consultant:
+  name: "Dr. Alice Carter"
+  email: "alice.carter@usu.edu"
+  office: "BNR 129A"
+  hours: "By appointment"
+  schedule_url: "https://calendly.com/your-handle"
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins: []    # keep empty for GitHub Pages compatibility
+

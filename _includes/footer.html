@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>
+      {{ site.consultant.name }} ·
+      <a href="mailto:{{ site.consultant.email }}">{{ site.consultant.email }}</a> ·
+      Office: {{ site.consultant.office }} ·
+      Hours: {{ site.consultant.hours }}
+    </p>
+    <p class="muted">© {{ site.time | date: "%Y" }} · Hosted on GitHub Pages</p>
+  </div>
+</footer>
