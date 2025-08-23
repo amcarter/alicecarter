@@ -1,8 +1,6 @@
-### Ground Rules
-
-- **Scope**: Support focuses on experimental design, analysis planning, model diagnostics, and result interpretation. I do not write your assignments or projects.
-- **Preparation**: Bring a brief problem statement, your data dictionary, and any code you've already tried.
-- **Reproducibility**: Share code and data (or a minimal reproducible example) when possible. Use version control where feasible.
-- **Time**: Sessions are typically 30–45 minutes. Complex topics may require follow-ups.
-- **Fair Use**: This service is for university-affiliated work. Publications should acknowledge consulting assistance where appropriate.
-- **Boundaries**: I can advise on statistical methods, not on policy or grading decisions.
+- **Scope**: Support focuses on experimental design, analysis planning, model diagnostics, and result interpretation. If you need help with coding, please [visit our graduate coding mentors](https://forms.gle/xNRkHvJWM7Efjwq39).
+- **Preparation**: I need a brief description of your research question, data structure, and any statistical methods you're considering. Please send relevant materials (e.g., your dataset, analysis code, or proposal draft) at least 24 hours in advance, not including weekends. Meetings without prep materials may be rescheduled.
+- **Reproducibility**: Please make sure your code is able to run up to the point where we will be working.
+- **Time**: Initial consultations are an hour. Complex topics may require follow-ups (30m by default).
+- **PI involvement**: Your advisor should be aware of the consultation and supportive of your proposed analysis. If your question involves a fundamental design or framing issue, I may ask you to discuss with them before we proceed.
+- **Fair use**: This service is for university-affiliated work. Publications should acknowledge consulting assistance where appropriate. Co-authorship may be appropriate sometimes too.

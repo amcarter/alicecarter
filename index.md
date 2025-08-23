@@ -1,21 +1,19 @@
-
 ---
 layout: default
-title: "Statistical Consulting & Teaching"
+title: "Alice Carter's stats consulting & teaching pages"
 ---
 
 ## Consulting
 
-I provide statistical consulting for university-affiliated students, staff, and faculty. Typical topics include study design, power/sample size, regression and mixed models, generalized models, GAMs, multilevel/hierarchical analysis, time series, and reproducible workflows in R.
+I provide statistical consulting for Ecology Center grad students, postdocs, and faculty. Typical topics include study design, power/sample size, regression and mixed models, generalized models, GAMs, multilevel/hierarchical analysis, time series analysis.
 
-- **Appointments:** See the [Schedule](./schedule) page.
-- **Contact:** {{ site.consultant.email }}
-
-## Ground Rules
+Before you book, please review the **ground rules**:
 {% include ground_rules.md %}
 
-## Course Materials {#downloads}
-Below are commonly requested downloads. Instructors/students can link here directly.
+**Appointments:** See my [Calendar](https://calendly.com/usu_ec_statistical_consulting).<br>
+**Contact:** <a href="mailto:{{ site.consultant.email }}">{{ site.consultant.email }}</a>
+
+## Example Scripts {#downloads}
 
 <ul class="download-list">
 {% for d in site.data.downloads %}
