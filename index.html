@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Statistical Consulting & Teaching</title>
+  <meta name="description" content="Professional statistical consulting and teaching resources: ground rules, booking, and course downloads." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%93%9A%3C/text%3E%3C/svg%3E">
+  <style>
+    /* --- Base / Reset --- */
+    :root{
+      --bg: #ffffff;
+      --bg-soft: #f6f7f9;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --brand: #0ea5e9; /* cyan-500 */
+      --brand-ink: #075985;
+      --card: #ffffff;
+      --border: #e5e7eb;
+      --focus: #0ea5e966;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg: #0b1020;
+        --bg-soft: #0f1528;
+        --text: #f3f5f7;
+        --muted: #9aa4b2;
+        --brand: #38bdf8; /* lighter cyan */
+        --brand-ink: #7dd3fc;
+        --card: #111629;
+        --border: #232b3d;
+        --focus: #38bdf866;
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    img{max-width:100%;display:block}
+    .container{max-width:1000px;margin:0 auto;padding:0 1rem}
+
+    /* --- Header / Nav --- */
+    header{position:sticky;top:0;z-index:40;background:color-mix(in srgb, var(--bg) 86%, transparent);backdrop-filter:saturate(160%) blur(8px);border-bottom:1px solid var(--border)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 0}
+    .brand{display:flex;align-items:center;gap:.6rem}
+    .brand .logo{width:36px;height:36px;border-radius:10px;background:radial-gradient(120% 120% at 20% 10%, var(--brand) 0%, transparent 40%), linear-gradient(135deg, var(--bg-soft), var(--card)); border:1px solid var(--border)}
+    .brand .title{font-weight:700;letter-spacing:.2px}
+    .nav a{padding:.25rem .5rem;border-radius:.5rem}
+    .nav .links{display:flex;gap:.25rem;flex-wrap:wrap}
+    .nav a:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+
+    /* --- Hero --- */
+    .hero{padding:4rem 0 2rem;background:linear-gradient(180deg, var(--bg-soft), transparent)}
+    .hero h1{font-size:clamp(1.8rem, 2.5vw + 1rem, 3rem);line-height:1.1;margin:.2rem 0}
+    .hero p{color:var(--muted);max-width:60ch}
+    .cta-row{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.2rem}
+    .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1rem;border-radius:.8rem;border:1px solid var(--border);background:var(--card);color:var(--text);text-decoration:none;font-weight:600;box-shadow:0 1px 0 rgba(0,0,0,.04)}
+    .btn-primary{background:var(--brand);color:#041318;border-color:transparent}
+    .btn:hover{transform:translateY(-1px)}
+
+    /* --- Sections --- */
+    section{padding:3rem 0;border-top:1px solid var(--border)}
+    h2{font-size:1.5rem;margin:.2rem 0 1rem}
+    .muted{color:var(--muted)}
+
+    /* --- Ground Rules --- */
+    .rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
+    .rule{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1rem}
+    .rule h3{margin:.2rem 0 .4rem;font-size:1rem}
+
+    /* --- Materials Grid --- */
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1rem;display:flex;flex-direction:column;gap:.6rem}
+    .card .badge{font-size:.75rem;color:var(--muted)}
+    .card .actions{margin-top:auto;display:flex;gap:.5rem;flex-wrap:wrap}
+    .pill{display:inline-flex;align-items:center;gap:.5rem;border:1px solid var(--border);padding:.45rem .7rem;border-radius:999px;text-decoration:none}
+
+    /* --- Footer --- */
+    footer{padding:2.5rem 0;border-top:1px solid var(--border);color:var(--muted)}
+
+    /* --- Utilities --- */
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    .kicker{display:inline-block;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--brand-ink)}
+    .lead{font-size:1.05rem}
+    .spacer{height:1rem}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav" role="navigation" aria-label="Primary">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div class="title">Statistical Consulting & Teaching</div>
+      </div>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#rules">Ground Rules</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#materials">Course Materials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="container">
+        <span class="kicker">Consultant • Teacher • Collaborator</span>
+        <h1>Your go‑to resource for applied statistics</h1>
+        <p class="lead">I help researchers and teams design studies, analyze data, and communicate results clearly. Below you’ll find how I work with clients, a direct link to book time, and downloadable course resources.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://calendly.com/YOUR-CALENDLY" target="_blank" rel="noopener">Book a consultation</a>
+          <a class="btn" href="#materials">Browse course materials</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="rules">
+      <div class="container">
+        <h2>Ground Rules</h2>
+        <p class="muted">Clear expectations help us do great work efficiently and fairly. Here’s the short version—expand or adapt as needed.</p>
+        <div class="rules" role="list">
+          <article class="rule" role="listitem">
+            <h3>Scope & preparation</h3>
+            <p>Before we meet, share a brief problem statement, data dictionary, and any code you’ve tried. I’ll focus on strategy, model design, diagnostics, and interpretation rather than writing entire analyses end‑to‑end.</p>
+          </article>
+          <article class="rule" role="listitem">
+            <h3>Scheduling & cancellations</h3>
+            <p>Sessions are booked via the calendar below. Please reschedule or cancel at least 24 hours in advance.</p>
+          </article>
+          <article class="rule" role="listitem">
+            <h3>Academic integrity</h3>
+            <p>I’m happy to coach and review, but I won’t complete graded work for students. I can advise on methodology and communication.</p>
+          </article>
+          <article class="rule" role="listitem">
+            <h3>Deliverables</h3>
+            <p>For most projects I provide a short written recap (key decisions, next steps, references). Larger projects may include a proposal and timeline.</p>
+          </article>
+          <article class="rule" role="listitem">
+            <h3>Equity & access</h3>
+            <p>Sliding scale options are available for students and community partners. Please ask if cost is a barrier.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule">
+      <div class="container">
+        <h2>Schedule</h2>
+        <p class="muted">Use the button below to open the scheduling calendar. If you don’t see a time that works, <a href="#contact">contact me</a>.</p>
+        <div class="spacer"></div>
+        <a class="btn btn-primary" href="https://calendly.com/YOUR-CALENDLY" target="_blank" rel="noopener" aria-label="Open scheduling calendar">Open scheduling calendar</a>
+      </div>
+    </section>
+
+    <section id="materials">
+      <div class="container">
+        <h2>Course Materials</h2>
+        <p class="muted">Slides, handouts, and example code used in workshops and courses. All downloads are static files you can host in this repository.</p>
+        <div class="grid" role="list">
+          <!-- Example cards — duplicate and edit paths/titles as needed -->
+          <article class="card" role="listitem">
+            <div class="badge">PDF</div>
+            <h3>Experimental Design Cheat‑Sheet</h3>
+            <p>Randomization, replication, blocking, and power—on one page.</p>
+            <div class="actions">
+              <a class="pill" href="downloads/exp-design-cheatsheet.pdf" download>
+                <span aria-hidden="true">📄</span> Download
+              </a>
+              <a class="pill" href="downloads/exp-design-cheatsheet.pdf" target="_blank" rel="noopener">
+                <span aria-hidden="true">👁️</span> Preview
+              </a>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="badge">Slides</div>
+            <h3>GLMMs: From Design to Diagnosis</h3>
+            <p>When to use mixed models, how to specify random effects, and how to check assumptions.</p>
+            <div class="actions">
+              <a class="pill" href="downloads/glmm-slides.pdf" download>📑 Download</a>
+              <a class="pill" href="downloads/glmm-slides.pdf" target="_blank" rel="noopener">👁️ Preview</a>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="badge">Code</div>
+            <h3>R Examples: ggplot & {brms}</h3>
+            <p>Reproducible scripts for model fitting and plotting with tidy workflows.</p>
+            <div class="actions">
+              <a class="pill" href="downloads/r-examples.zip">📦 Download ZIP</a>
+              <a class="pill" href="downloads/r-examples/" target="_blank" rel="noopener">🗂️ Browse</a>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="badge">Handout</div>
+            <h3>Communicating Results</h3>
+            <p>How to write concise methods, results, and uncertainty statements.</p>
+            <div class="actions">
+              <a class="pill" href="downloads/communicating-results.pdf" download>📄 Download</a>
+              <a class="pill" href="downloads/communicating-results.pdf" target="_blank" rel="noopener">👁️ Preview</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="muted">Have a question, or need something not listed here? Send an email.</p>
+        <p>
+          <a class="pill" href="mailto:you@example.com">✉️ you@example.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="y"></span> Your Name. All rights reserved. • Built for GitHub Pages.</small>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // Optional: smooth scroll for same-page links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const href = a.getAttribute('href');
+        const el = document.querySelector(href);
+        if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); }
+      });
+    });
+  </script>
+</body>
+</html>
+
