@@ -1,10 +1,9 @@
-
 ---
 layout: default
-title: "Schedule"
+title: "Home"
 ---
 
-## Schedule an Appointment
+## chili
 
 Use the link below to book a meeting. If none of the available times work for you, email me at {{ site.consultant.email }} with two or three alternatives.
 

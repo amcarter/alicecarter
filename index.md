@@ -1,25 +1,12 @@
 ---
 layout: default
-title: "Alice Carter's stats consulting & teaching pages"
+title: "Home"
 ---
 
-## Consulting
+## chili
 
-I provide statistical consulting for Ecology Center grad students, postdocs, and faculty. Typical topics include study design, power/sample size, regression and mixed models, generalized models, GAMs, multilevel/hierarchical analysis, time series analysis.
+Use the link below to book a meeting. If none of the available times work for you, email me at {{ site.consultant.email }} with two or three alternatives.
 
-Before you book, please review the **ground rules**:
-{% include ground_rules.md %}
-
-**Appointments:** See my [Calendar](https://calendly.com/usu_ec_statistical_consulting).<br>
-**Contact:** <a href="mailto:{{ site.consultant.email }}">{{ site.consultant.email }}</a>
-
-## Example Scripts {#downloads}
-
-<ul class="download-list">
-{% for d in site.data.downloads %}
-  <li class="download-item">
-    <a class="download-link" href="{{ d.file | relative_url }}">{{ d.title }}</a>
-    <div class="download-desc">{{ d.desc }}</div>
-  </li>
-{% endfor %}
-</ul>
+- 👉 **[Open scheduling calendar]({{ site.consultant.schedule_url }})**
+- Meetings can be remote or in-person ({{ site.consultant.office }}).
+- Please include a 2–3 sentence summary of your question and any links to a minimal reproducible example.
