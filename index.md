@@ -11,10 +11,10 @@ title: "Alice Carter"
     <div class="landing-text">
       <h1>Alice Carter</h1>
       <p>
-        I am an ecosystem statistitian and river biogeochemist. I integrate empirical field research with diverse environmental datasets using data-driven and time series modeling with Bayesian inference to learn about the ecology and biogeochemistry of watersheds. I study how local controls interact with watershed scale hydrologic and geomorphic constraints to determine the nature and magnitude of carbon cycling in aquatic ecosystems and how it is shifting in response to human and environmental change. 
+        I am an ecosystem modeler and river biogeochemist. I integrate empirical field research with diverse environmental datasets using data-driven and time series modeling with Bayesian inference to learn about the ecology and biogeochemistry of watersheds. I study how local controls interact with watershed scale hydrologic and geomorphic constraints to determine the nature and magnitude of carbon cycling in aquatic ecosystems and how it is shifting in response to human and environmental change. 
       </p>
       <p>
-        I am currently located at Utah State University where I am an Assistant Professor of the Practice in the Department of Mathematics and Statistics. Here, I mentor ecology graduate students on their statistics and I study river energetics at the continental scale using process guided machine learning, Bayesian statistical models, and sparse modeling approaches. 
+        I am currently an assistant professor of the practice in the Department of Mathematics and Statistics at Utah State University. Here, I mentor ecology graduate students on their statistics and I study river energetics at the continental scale using process guided machine learning, Bayesian statistical models, and sparse modeling approaches. 
       </p>
     </div>
   </div>
