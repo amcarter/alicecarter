@@ -1,11 +1,11 @@
-title: "Dr. Alice Carter, Utah State University"
-description: "USU statistical consulting and course materials."
+title: "Dr. Alice M. Carter, Utah State University"
+description: "Assistant Professor of the Practice, Department of Mathematics and Statistics"
 baseurl: "/alicecarter"
 url: "https://vlahm.github.io"
 
 # Simple site variables you can reuse in layouts
 consultant:
-  name: "Dr. Alice Carter"
+  name: "Dr. Alice M Carter"
   email: "alice.carter@usu.edu"
   office: "BNR 129A"
   hours: "By appointment"
