@@ -3,11 +3,11 @@ layout: default
 title: "Alice Carter's stats consulting & teaching pages"
 ---
 
-## Consulting
+## Statistical Consulting
 
-I provide statistical consulting for Ecology Center grad students, postdocs, and faculty. Typical topics include study design, power/sample size, regression and mixed models, generalized models, GAMs, multilevel/hierarchical analysis, time series analysis.
+I provide statistical consulting for USU Ecology Center grad students, postdocs, and faculty. Typical topics include study design, power/sample size, regression and mixed models, generalized models, GAMs, multilevel/hierarchical analysis, time series analysis.
 
-Before you book, please review the following **conditions for success**:
+Before you book, please review the following **guidelines**:
 {% include ground_rules.md %}
 
 **Appointments:** See my [Calendar](https://calendly.com/usu_ec_statistical_consulting).<br>
