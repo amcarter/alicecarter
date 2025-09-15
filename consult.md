@@ -16,7 +16,7 @@ Before you book, please review the following **guidelines**:
 ## Example Scripts {#downloads}
 
 Coming soon!
-<!--
+{% comment %}
 <ul class="download-list">
 {% for d in site.data.downloads %}
   <li class="download-item">
@@ -25,4 +25,4 @@ Coming soon!
   </li>
 {% endfor %}
 </ul>
--->
+{% endcomment %}
