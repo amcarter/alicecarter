@@ -15,6 +15,8 @@ Before you book, please review the following **guidelines**:
 
 ## Example Scripts {#downloads}
 
+Coming soon!
+<!--
 <ul class="download-list">
 {% for d in site.data.downloads %}
   <li class="download-item">
@@ -23,3 +25,4 @@ Before you book, please review the following **guidelines**:
   </li>
 {% endfor %}
 </ul>
+-->
